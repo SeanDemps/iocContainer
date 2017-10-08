@@ -1,0 +1,15 @@
+{
+  "name": "ioc-container",
+  "version": "1.0.0",
+  "description": "A simple JavaScript IOC container.",
+  "main": "iocContainer.js",
+  "scripts": {
+    "test": " mocha ./src/iocContainer.spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^4.0.0"
+  }
+}
