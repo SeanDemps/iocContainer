@@ -28,7 +28,7 @@ class IocContainer {
 
     const initialisedDependencies = dependencyNames.map((name) => this._initialiseService(name, [...dependenciesInBranch, serviceName]));
     return new Service(...initialisedDependencies);
-}
+  }
 
   _errorOnPreviousInitialization(dependencies, serviceName) {
     const serviceIndex = dependencies.indexOf(serviceName);
